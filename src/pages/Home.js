@@ -12,9 +12,9 @@ import {
   Separator,
   TitleLink,
 } from "./styles";
-import Spinner from "../../components/Spinner/Spinner";
+import Spinner from "../components/Spinner/Spinner";
 import { FaToggleOn, FaToggleOff } from "react-icons/fa";
-import AudioPlayer from "../../components/AudioPlayer";
+import AudioPlayer from "../components/AudioPlayer";
 
 const ToggleSwitch = ({ isOn, onToggle }) => {
   return (
